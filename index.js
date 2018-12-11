@@ -98,6 +98,7 @@ class FloatingLabel extends React.Component {
           {this.props.placeholder}
         </span>
         <Node
+          ref={this.props.innerRef}
           autoCapitalize={this.props.autoCapitalize}
           autoComplete={this.props.autoComplete}
           autoFocus={this.props.autoFocus}
